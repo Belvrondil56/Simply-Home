@@ -61,7 +61,7 @@
         </div>
         <article class="intro">
 
-            <h1 class="title">Simply Home : Nos Maisons</h1>
+            <h1 class="title">Simply Home : Nos Maisons trop fun !!!</h1>
             <p>Que votre choix se porte sur une <strong>maison traditioonnelle</strong> ou sur une <strong>maisons
                     contemporaine,</strong> notre équipe experimentée, composée de conducteurs de travaux qualifiés,
                 d'une reponsable technique, d'un reponsable qualité et de technico-commerciaux, est là pour vous
