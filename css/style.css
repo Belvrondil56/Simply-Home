@@ -1,0 +1,526 @@
+/* Ajout des liens vers polices */
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/caviardreams-webfont.woff2') format('woff2'),
+        url('../fonts/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../fonts/caviardreams_bold-webfont.woff2') format('woff2'),
+        url('../fonts/caviardreams_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsbold_italic';
+    src: url('../fonts/caviardreams_bolditalic-webfont.woff2') format('woff2'),
+        url('../fonts/caviardreams_bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'caviar_dreamsitalic';
+    src: url('../fonts/caviardreams_italic-webfont.woff2') format('woff2'),
+        url('../fonts/caviardreams_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --header-bg: #6A225A;
+    --bandeau-bg: #dcdcdc;
+    --gris-clair: #E0DFDF;
+    --gris-fonce: #3E3D4B;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: 'caviar_dreamsbold';
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'caviar_dreamsregular';
+    font-size: 1.275rem;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    background: url(../images/images/choisir-constructeur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .navbar-toggler {
+    background-color: white;
+}
+
+header .navbar img {
+    width: 20%;
+    height: 100%;
+    margin: 0 10px;
+}
+
+header .navbar .navbar-brand {
+    color: white;
+}
+
+header .navbar .navbar-brand .petit{
+    font-size: 14px;
+}
+
+header .navbar .navbar-brand p {
+    font-size: 20px;
+    margin: 0;
+}
+
+header .navbar .collapse{
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+header .navbar .collapse .navbar-nav .nav-link {
+    color: white;
+}
+
+header .bandeau {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    top: 0;
+    background-color: var(--bandeau-bg);
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .bandeau .reseaux-infos {
+    display: flex;
+    float: right;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+header .bandeau .reseaux-infos i {
+    padding: 0 6px;
+}
+
+header .bandeau p {
+    margin: 0;
+    padding: 3px;
+}
+
+header .navbar {
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(106, 34, 90, 0.80);
+}
+
+header .navbar .collapse ul {
+    margin: 0;
+}
+
+header .filtre-noir {
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+
+
+/* ----------------------------------Main Accueil------------------------- */
+
+.largeurMax {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.accueil .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accueil .main .text {
+    text-align: justify;
+    width: 70%;
+}
+
+.accueil .main img {
+    width: 20%;
+    height: 100%;
+}
+
+.tel-mel{
+    position: fixed;
+    z-index: 18;
+    top: 50%;
+    right: 0px;
+    font-size: 1.5em;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+
+.tel-mel .boite{
+     border: 1px solid black;
+     background-color: white;
+     margin-bottom: 5px;
+     padding: 10px;
+}
+
+.tel-mel i{
+    padding: 3px;
+}
+
+.accueil .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.accueil .cards .card {
+    width: 26%;
+    margin-bottom: 30px;
+}
+
+
+.accueil .cards .card p {
+    font-size: 14px;
+}
+
+.accueil .cards .card .card-text{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.accueil .cards .card .card-img-overlay {
+    width: 100%;
+}
+
+.accueil .cards .text-white{
+    background:url(../images/images/imgfinancerprojet.jpg);
+}
+
+.accueil .cards .card .card-body {
+    background-color: var(--gris-clair);
+}
+
+.accueil h2 {
+    padding: 30px 0;
+    font-family: 'caviar_dreamsbold';
+}
+
+.accueil .bouton {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+
+.bouton button {
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-width: 1px;
+    background-color: white;
+}
+
+.transi-bouton:hover {
+    background-color: black;
+    border: white;
+    color: white;
+}
+
+
+
+
+/*---------------------------------footer--------------------------------*/
+
+
+.footer {
+    position: relative;
+    width: 100%;
+}
+
+.footer .bg-img {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    background: url(../images/images/img-bg-footer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .bg-img .bandeau-bas {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(241, 241, 241, 0.589);
+}
+
+.footer .bg-img .bandeau-bas p {
+    color: black;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.footer .bg-img .fd-blanc {
+    width: 80%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform:translate(-50%, 0%);
+    z-index: 1;
+    background-color: white;
+    -webkit-transform:translate(-50%, 0%);
+    -moz-transform:translate(-50%, 0%);
+    -ms-transform:translate(-50%, 0%);
+    -o-transform:translate(-50%, 0%);
+}
+
+
+
+.footer .bg-img .fd-blanc .pad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer .bg-img .fd-blanc .boite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.footer .bg-img .fd-blanc p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.footer .bg-img .fd-blanc .reseaux-icones{
+    display: flex;
+    width: 40%;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+.footer .bg-img .fd-blanc .resal{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .bg-img .fd-noir {
+    background-color: black;
+    width: 50%;
+    height: 200px;
+    transform: translate(0, -15%);
+    -webkit-transform: translate(0, -15%);
+    -moz-transform: translate(0, -15%);
+    -ms-transform: translate(0, -15%);
+    -o-transform: translate(0, -15%);
+}
+
+.footer .bg-img .fd-noir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'caviar_dreamsregular';
+    color: white;
+}
+
+.footer .bg-img .fd-noir .logo-titre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    height: 50%;
+}
+
+.footer .bg-img .fd-noir .logo-titre .lt{
+    width: 50%;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/*--------------------------------page APROPOS-------------------------------*/
+
+
+.apropos h7,i{
+    color: black;
+    font-family: 'caviar_dreamsbold';
+}
+
+.apropos p{
+    margin-top: 30px;
+}
+
+.apropos .accord{
+    margin-bottom: 50px;
+}
+
+.apropos .accord p{
+    font-size: 16px;
+}
+
+/*-----------------------------------page NosMaisons----------------------------------*/
+
+
+.maisons form .liste-choix{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--gris-fonce);
+    padding: 5px;
+}
+
+.maisons form .liste-choix .choix{
+    width: 22%;
+}
+
+.maisons .container{
+    padding: 20px 0;
+}
+
+.maisons .container .card{
+    border:none;
+    margin-bottom: 15px;
+}
+
+.maisons .container .card .card-body{
+    background-color: var(--gris-clair);
+}
+
+.maisons .container .card .card-text{
+    font-size: 13px;
+}
+
+.maisons .pagination .page-link{
+    color: var(--bandeau-bg);
+}
+
+.maisons .pagination .active .page-link{
+    border:1px solid var(--bandeau-bg);
+    background-color: white;
+    color: var(--header-bg);
+}
+
+/*---------------------page Contact--------------------*/
+.contact .intro{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.contact .intro p{
+    width: 750%;
+}
+
+.contact .intro img{
+    width: 20%;
+    height: 100%;
+}
+
+.contact .formulaire .labels{
+    width: 25%;
+}
+
+.contact .formulaire input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.contact .formulaire .depart{
+    margin-top: 40px;
+}
+
+.contact .formulaire .checkbox{
+    display: flex;
+}
+
+.contact .formulaire .checkbox .form-check{
+    margin-right: 10px;
+}
+
+.contact .formulaire .form-group{
+    margin-top: 40px;
+}
+
+.contact .bouton{
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    header{
+        height: 70px;
+    }
+
+    header .navbar{
+        background-color: rgba(106, 34, 90, 1);
+    }
+
+    header .bandeau{
+        display: none;
+    }
+
+    header .navbar .menu-afficher{
+        position: absolute;
+        right: 0;
+        top: 100%;
+        padding: 20px;
+        margin: 0;
+        font-size: 1.5rem;
+        background-color: var(--header-bg);
+    }
+}
