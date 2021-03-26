@@ -53,9 +53,14 @@ main{
     padding-bottom: 20px;
 }
 
+
 h1 {
     font-family: 'caviar_dreamsbold';
     font-size: 2rem;
+}
+
+h2{
+    text-align: center;
 }
 
 p {
@@ -63,7 +68,10 @@ p {
     font-size: 1.275rem;
 }
 
-header {
+
+/* ------------------------------------------header page Accueil----------------------------------- */
+
+.accueil header {
     position: relative;
     width: 100%;
     height: 460px;
@@ -72,39 +80,51 @@ header {
     background-position: center;
 }
 
-header .navbar-toggler {
+.accueil header .navbar-toggler {
     background-color: white;
 }
 
-header .navbar img {
+.accueil header .navbar img {
     width: 20%;
     height: 100%;
     margin: 0 10px;
 }
 
-header .navbar .navbar-brand {
+.accueil header .navbar .navbar-brand {
     color: white;
 }
 
-header .navbar .navbar-brand .petit{
+.accueil header .navbar .navbar-brand .petit{
     font-size: 14px;
 }
 
-header .navbar .navbar-brand p {
+.accueil header .navbar .navbar-brand p {
     font-size: 20px;
     margin: 0;
 }
 
-header .navbar .collapse{
+.accueil header .navbar .collapse{
     justify-content: flex-end;
     margin-right: 25px;
 }
 
-header .navbar .collapse .navbar-nav .nav-link {
+.accueil header .bandeau .bouton{
+    border: none;
+    background-color: var(--bandeau-bg);
+    padding: 0;
+}
+
+.accueil header .bandeau .modal-dialog{
+    z-index: 100;
+}
+
+
+
+.accueil header .navbar .collapse .navbar-nav .nav-link {
     color: white;
 }
 
-header .bandeau {
+.accueil header .bandeau {
     position: absolute;
     z-index: 9;
     width: 100%;
@@ -114,23 +134,23 @@ header .bandeau {
     justify-content: flex-end;
 }
 
-header .bandeau .reseaux-infos {
+.accueil header .bandeau .reseaux-infos {
     display: flex;
     float: right;
     margin-right: 2rem;
     align-items: center;
 }
 
-header .bandeau .reseaux-infos i {
+.accueil header .bandeau .reseaux-infos i {
     padding: 0 6px;
 }
 
-header .bandeau p {
+.accueil header .bandeau p {
     margin: 0;
     padding: 3px;
 }
 
-header .navbar {
+.accueil header .navbar {
     padding: 0;
     position: absolute;
     z-index: 10;
@@ -139,11 +159,11 @@ header .navbar {
     background-color: rgba(106, 34, 90, 0.80);
 }
 
-header .navbar .collapse ul {
+.accueil header .navbar .collapse ul {
     margin: 0;
 }
 
-header .filtre-noir {
+.accueil header .filtre-noir {
     position: absolute;
     top:0;
     right: 0;
@@ -154,12 +174,69 @@ header .filtre-noir {
 }
 
 
+
+
+/* ------------------------------------------header autre pages que Accueil----------------------------------- */
+
+
+
+body:not(.accueil) header .navbar{
+    padding: 0;
+    position: fixed;
+    z-index: 10;
+    top:0;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(106, 34, 90, 1);
+}
+
+body:not(.accueil) header .navbar .collapse ul {
+    margin: 0;
+}
+
+body:not(.accueil) header .navbar-toggler {
+    background-color: white;
+}
+
+body:not(.accueil )header .navbar a{
+    width: 20%;
+    height: 100%;
+    margin: 0 10px;
+}
+
+body:not(.accueil) header .navbar .collapse .navbar-nav .nav-link {
+    color: white;
+}
+
+body:not(.accueil) header .navbar .navbar-brand {
+    color: white;
+}
+
+body:not(.accueil) header .navbar .navbar-brand .petit{
+    font-size: 14px;
+}
+
+body:not(.accueil) header .navbar .navbar-brand p {
+    font-size: 20px;
+    margin: 0;
+}
+
+body:not(.accueil) header .navbar .collapse{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+
+
+
 /* ----------------------------------Main Accueil------------------------- */
 
 .largeurMax {
-    max-width: 1000px;
+
+    max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    margin: 5% auto;
 }
 
 .title {
@@ -168,6 +245,7 @@ header .filtre-noir {
 }
 
 .accueil .main {
+    margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -184,6 +262,19 @@ header .filtre-noir {
     height: 100%;
 }
 
+.accueil .main .modal .btn{
+    background-color: var(--bandeau-bg);
+}
+
+.accueil .mainPage .modal .mdp-compte{
+    display: flex;
+    justify-content: space-around;
+}
+
+.accueil .main .modal .modal-body .mdp-compte div{
+    width: 45%;
+}
+
 .tel-mel{
     position: fixed;
     z-index: 18;
@@ -197,57 +288,91 @@ header .filtre-noir {
     -o-transform: translate(0, -50%);
 }
 
-.tel-mel .boite{
+.tel-mel .boite,
+.tel-mel .boite2
+{
      border: 1px solid black;
      background-color: white;
      margin-bottom: 5px;
      padding: 10px;
 }
 
+.tel-mel .boite span{
+    display: flex;
+    justify-content: space-around;
+}
+.tel-mel .boite2 span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tel-mel:hover .boite p{
+    display: block;
+}
+.tel-mel:hover .boite2 .bouton{
+    display: block;
+    width: 80%;
+    font-size: 14px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.tel-mel .boite span p,
+.tel-mel .boite2 span .bouton
+{
+    display: none;
+}
+
 .tel-mel i{
     padding: 3px;
 }
 
-.accueil .cards {
+.mainPage .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
 }
 
-.accueil .cards .card {
-    width: 26%;
+.mainPage .cards .card {
+    width: 24%;
     margin-bottom: 30px;
+    border: none;
 }
 
 
-.accueil .cards .card p {
+.mainPage .cards .card p {
     font-size: 14px;
 }
 
-.accueil .cards .card .card-text{
+.mainPage .cards .card .card-text{
     font-size: 1.3em;
     font-weight: bold;
 }
 
-.accueil .cards .card .card-img-overlay {
+.mainPage .cards .card .card-img-overlay {
     width: 100%;
 }
 
-.accueil .cards .text-white{
+.mainPage .cards .text-white{
     background:url(../images/images/imgfinancerprojet.jpg);
+    background-size: cover;
+    background-position: center;
+    
 }
 
-.accueil .cards .card .card-body {
+.mainPage .cards .card .card-body {
     background-color: var(--gris-clair);
 }
 
-.accueil h2 {
+.mainPage h2 {
     padding: 30px 0;
     font-family: 'caviar_dreamsbold';
 }
 
-.accueil .bouton {
+.mainPage .bouton {
     margin-top: 30px;
     text-align: center;
 
@@ -259,6 +384,7 @@ header .filtre-noir {
     padding: 5px 15px;
     border-width: 1px;
     background-color: white;
+    cursor: pointer;
 }
 
 .transi-bouton:hover {
@@ -394,8 +520,12 @@ header .filtre-noir {
     font-family: 'caviar_dreamsbold';
 }
 
-.apropos p{
-    margin-top: 30px;
+.apropos .texte{
+    display: flex;
+}
+
+.apropos .texte p{
+    text-align: justify;
 }
 
 .apropos .accord{
@@ -446,6 +576,11 @@ header .filtre-noir {
     border:1px solid var(--bandeau-bg);
     background-color: white;
     color: var(--header-bg);
+}
+
+.maisons .pages nav{
+    display: flex;
+    justify-content: center;
 }
 
 /*---------------------page Contact--------------------*/
@@ -500,8 +635,22 @@ header .filtre-noir {
 }
 
 
+
+
 @media screen and (max-width: 768px){
 
+    .contact .intro img{
+        display: none;
+    }
+
+    .mainPage .main {
+        justify-content: center;
+    }
+
+    .mainPage .main img{
+        display: none;
+    }
+    
     header{
         height: 70px;
     }
@@ -519,8 +668,43 @@ header .filtre-noir {
         right: 0;
         top: 100%;
         padding: 20px;
+        margin-right: 0 !important;
+        font-size: 1.5rem;
+        background-color: var(--header-bg);
+    }
+
+
+    .accueil header{
+        height: 70px;
+    }
+
+    .accueil header .navbar{
+        background-color: rgba(106, 34, 90, 1);
+    }
+
+    .accueil header .bandeau{
+        display: none;
+    }
+
+    .accueil header .navbar .menu-afficher{
+        position: absolute;
+        right: 0;
+        top: 100%;
+        padding: 20px;
         margin: 0;
         font-size: 1.5rem;
         background-color: var(--header-bg);
     }
+
+    .maisons .row .dernier{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .largeurMax{
+        padding: 40px;
+    }
+
 }

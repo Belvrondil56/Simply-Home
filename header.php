@@ -3,7 +3,6 @@ $path = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $current = basename($path);
 ?>
 
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -23,25 +22,11 @@ $current = basename($path);
     <title>Simply Home</title>
 </head>
 
-<body class="accueil">
+<body class="autre">
     <header>
 
-        <div class="bandeau">
-            <span class="reseaux-infos">
-                <p>|</p>
-                <div><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-linkedin-in"></i><i
-                        class="fab fa-instagram"></i></div>
-                <p>|</p>
-                <p><i class="fa fa-phone" aria-hidden="true"></i> 02 57 87 71 85</p>
-                <p>|</p>
-                <p>Suivre mon projet</p>
-                <p>|</p>
-                </i>
-            </span>
-        </div>
-
         <nav class="navbar navbar-expand-md navbar-light justify-content-between">
-            <a class="navbar-brand d-flex" href="Accueil.html"> <img src="images/images/simply-home-logo.png" alt="">
+            <a class="navbar-brand d-flex" href="Accueil.php"> <img src="images/images/simply-home-logo.png" alt="">
                 <p>Simply Home <br>
                     <span class="petit">Constructeur de vie</span></p>
             </a>
@@ -53,21 +38,18 @@ $current = basename($path);
             <div class="menu-afficher collapse navbar-collapse row text-right" id="navbarTogglerDemo02">
                 <ul class="navbar-nav d-flex justify-content-end">
                     <li class="nav-item active">
-                        <a class="nav-link" href="Accueil.html">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="Accueil.php" class="<?php if ($current == 'Accueil.php'){echo 'pagecourante';}?>">Accueil <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Apropos.html">A propos</a>
+                        <a class="nav-link" href="Apropos.php" class="<?php if ($current == 'Apropos.php'){echo 'pagecourante';}?>">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="NosMaisons.html">Nos maisons</a>
+                        <a class="nav-link" href="NosMaisons.php" class="<?php if ($current == 'NosMaisons.php'){echo 'pagecourante';}?>">Nos maisons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Contact.html">Contact</a>
+                        <a class="nav-link" href="Contact.php" class="<?php if ($current == 'Contact.php'){echo 'pagecourante';}?>">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
-        <div class="filtre-noir"></div>
-
     </header>
