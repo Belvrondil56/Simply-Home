@@ -15,7 +15,7 @@
                                 <div><img src="images/images/simply-home-logo.png" alt="logo"></div>
                                 <div class="lt">
                                     <h2>Simply Home</h2>
-                                    <p>Constructeur de vie</p>
+                                    <p>Agence Immobilière</p>
                                 </div>
                             </div>
                         </div>
