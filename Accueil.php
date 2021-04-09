@@ -35,7 +35,7 @@
         <nav class="navbar navbar-expand-md navbar-light justify-content-between">
             <a class="navbar-brand d-flex" href="Accueil.php"> <img src="images/images/simply-home-logo.png" alt="">
                 <p>Simply Home <br>
-                    <span class="petit">Constructeur de vie</span>
+                    <span class="petit">Agence de Questembert</span>
                 </p>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
