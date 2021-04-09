@@ -19,6 +19,8 @@ $current = basename($path);
     </script>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_house_single.css">
+    
     <title>Simply Home</title>
 </head>
 

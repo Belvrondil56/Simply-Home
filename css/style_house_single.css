@@ -1,0 +1,34 @@
+.houseSingle .house {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.houseSingle .title {
+
+}
+
+.houseSingle .houseImg {
+    width: 40%;
+}
+
+.houseSingle img {
+    width: 100%;
+    height: 100%;
+}
+
+.houseSingle .houseInfoBlock {
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.houseSingle .infos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.houseSingle .infos div {
+    flex-basis: 33%;
+}
