@@ -145,7 +145,7 @@
             <a href="maison_vannes_1.php" class="col-md-4 col-sm-6 card">
                 <img class="card-img-top" src="images/images/vannes_1.jpg" alt="vannes">
                 <div class="card-body">
-                    <p class="card-text">Maison 75 m² Vannes<br> 75m² <br>
+                    <p class="card-text">Maison Vannes<br> 75m² <br>
                         Exclusivité. A moins de 10 minutes de la Mairie de Vannes, projet d'une Maison ossature bois de plain pied de 75 m² dans un quartier recherché...</p>
                 </div>
             </a>
@@ -153,7 +153,7 @@
             <a href="maison_vannes_2.php" class="col-md-4 col-sm-6 card">
                 <img class="card-img-top" src="images/images/vannes_2.jpg" alt="vannes">
                 <div class="card-body">
-                    <p class="card-text">Maison de ville 3 pièces 80 m² <br> 80m² <br>
+                    <p class="card-text">Maison de ville 3 pièces <br> 80m² <br>
                         VANNES AGREABLE PETITE MAISON DE VILLE PROCHE COMMERCES ET ECOLES...</p>
                 </div>
             </a>
@@ -161,7 +161,7 @@
             <a href="maison_vannes_3.php" class="col-md-4 col-sm-6 card">
                 <img class="card-img-top" src="images/images//vannes_3.jpg" alt="vannes">
                 <div class="card-body">
-                    <p class="card-text">Maison 75m² Vannes <br> 170m² <br>
+                    <p class="card-text">Maison Vannes <br> 170m² <br>
                         MAISON CONTEMPORAINE 15 Mn de VANNES, sur la commune de Monterblanc, et située dans une écrin...</p>
                 </div>
             </a>
@@ -169,7 +169,7 @@
             <a href="maison_vannes_4.php" class="col-md-4 col-sm-6 card">
                 <img class="card-img-top" src="images/images/vannes_4.jpg" alt="vannes">
                 <div class="card-body">
-                    <p class="card-text">Maison 75m² Vannes <br> 75m² <br>
+                    <p class="card-text">Maison Vannes <br> 75m² <br>
                         Exclusivité. A moins de 10 minutes de la Mairie de Vannes, projet d'une Maison ossature bois de plain pied de 75 m² dans un quartier...</p>
                 </div>
             </a>
