@@ -3,15 +3,11 @@
     flex-wrap: wrap;
 }
 
-.houseSingle .title {
-
-}
-
 .houseSingle .houseImg {
     width: 40%;
 }
 
-.houseSingle img {
+.houseSingle .houseImg img {
     width: 100%;
     height: 100%;
 }
@@ -32,3 +28,8 @@
 .houseSingle .infos div {
     flex-basis: 33%;
 }
+.houseSingle .infos div img {
+    height: 15px;
+    padding-right: 4px;
+}
+
