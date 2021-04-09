@@ -2,7 +2,7 @@
 
 <main class="houseSingle largeurMax">
 
-    <h2 class="title">Maison 75 m² Vannes</h2>
+    <h2 class="title">Maison 170 m² Vannes</h2>
 
     <div class="house">
 
