@@ -2,7 +2,7 @@
 
 <main class="houseSingle largeurMax">
     
-        <h2 class="title">Maison 7 pièces 157 m²</h2>
+        <h2 class="title">Maison 7 pièces 157m²</h2>
 
         <div class="house">
 

@@ -2,7 +2,7 @@
 
 <main class="houseSingle largeurMax">
     
-        <h2 class="title">Maison Contempraine 5 pièces 89 m²</h2>
+        <h2 class="title">Maison Contempraine 5 pièces 89m²</h2>
 
         <div class="house">
 
