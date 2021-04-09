@@ -5,7 +5,7 @@
                     <div class="pad">
                         <div class="boite">
                             <h6>Simply Home</h6>
-                            <p>15 rue des Oliviers 16100 ANGOULEME</p>
+                            <p>12 rue des Voiles Oranges 56230 Questembert</p>
                             <div class="bouton">
                                 <a href="#"><button class="transi-bouton" type="button">02 57 87 71 85</button></a>
                             </div>
