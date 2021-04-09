@@ -558,6 +558,16 @@ body:not(.accueil) header .navbar .collapse{
 .maisons .container .card{
     border:none;
     margin-bottom: 15px;
+    min-height: 100%;
+}
+
+.maisons .container a{
+    color: black;
+    text-decoration: none;
+}
+
+.maisons .container .card .card-img-top{
+    height: 55%;;
 }
 
 .maisons .container .card .card-body{

@@ -2,7 +2,7 @@
 
 <main class="houseSingle largeurMax">
     
-        <h2 class="title">Maison de charme 10 pièces 328 m²</h2>
+        <h2 class="title">Maison de charme 10 pièces 328m²</h2>
 
         <div class="house">
 

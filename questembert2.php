@@ -2,7 +2,7 @@
 
 <main class="houseSingle largeurMax">
     
-        <h2 class="title">Maison Rénovée 5 pièces 122 m²</h2>
+        <h2 class="title">Maison Rénovée 5 pièces 122m²</h2>
 
         <div class="house">
 

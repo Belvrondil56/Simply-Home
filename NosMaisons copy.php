@@ -98,50 +98,81 @@
 
     <section class="container">
         <div class="row justify-content-between">
-            <a href="questembert1.php" class="col-md-4 col-sm-6 card">
-                <img class="card-img-top" src="images/images/questembert1.jpg" alt="questembert">
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/armenia_3_chambres.jpg" alt="Armenia">
                 <div class="card-body">
-                    <p class="card-text">Maison 7 pièces <br> 140m² <br> 
-                    Maison en pierres et parpaings offrant une surface 
-                    d'environ 140 m2 habitable, située en campagne, 
-                    à 3.8 kms du centre-ville de Questembert....</p>
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 104m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
                 </div>
-            </a>
-            <a href="questembert2.php" class="col-md-4 col-sm-6 card">
-                <img class="card-img-top" src="images/images/questembert2.jpg" alt="questembert">
+            </div>
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/atlas_3_chambres.jpg" alt="Atlas">
                 <div class="card-body">
-                    <p class="card-text">Maison Rénovée 5 pièces <br> 122m² <br> 
-                    Maison en pierre Questembert 1.5 km de la Gare, plus de 2100 m² de terrain !
-                    Très belle maison pierre, récemment rénovée entre 2003 et 2005.....</p>
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 106m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
                 </div>
-            </a>
-            <a href="questembert3.php" class="col-md-4 col-sm-6 card">
-                <img class="card-img-top" src="images/images/questembert3.jpg" alt="questembert">
+            </div>
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/attis_3_chambres.jpg" alt="Attis">
                 <div class="card-body">
-                    <p class="card-text">Maison de charme 10 pièces <br> 328m² <br> 
-                    Campagne de QUESTEMBERT, charme et authenticité pour cette magnifique 
-                    longère rénovée située dans un endroit paisible 
-                    d'une longueur de 35 m....</p>
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 109m² <br> Maison traditionnelle à étages
+                        de
                 </div>
-            </a>
-            <a href="questembert4.php" class="col-md-4 col-sm-6 card">
-                <img class="card-img-top" src="images/images/questembert4.jpg" alt="questembert">
+            </div>
+
+
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/actuel_2_chambres.jpg" alt="Actuel2">
                 <div class="card-body">
-                    <p class="card-text">Maison Contempraine 5 pièces <br> 89m² <br> 
-                    Vente Maison 89 m² à Questembert 145 000 €
-                    Maison CA t5 bis RT 2012 (à bâtir),vous offrant entrée, 
-                    salon séjour, cuisine ouverte, local p. a.c, w.c....</p>
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 72m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
                 </div>
-            </a>
-            <a href="questembert5.php" class="col-md-4 col-sm-6 card">
-                <img class="card-img-top" src="images/images/questembert5.jpg" alt="questembert">
+            </div>
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/actuel_3_chambres.jpg" alt="Actuel3">
                 <div class="card-body">
-                    <p class="card-text">Maison 7 pièces <br> 157m² <br> 
-                    Dans un hameau calme, venez découvrir cette maison familiale de 1988  de 157 m2 (environ)
-                    Composée au rez-de-chaussée d'une véranda de 18 m2, une pièce de vie de 38 m2 avec....</p>
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 87m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
                 </div>
-            </a>
-            
+            </div>
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/actuel_4_chambres.jpg" alt="Actuel4">
+                <div class="card-body">
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 108m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/adonis_4_chambres.jpg" alt="Adonis">
+                <div class="card-body">
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 125m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 card">
+                <img class="card-img-top" src="images/images/alpha_5_chambres.jpg" alt="Alpha5">
+                <div class="card-body">
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 177m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 card dernier">
+                <img class="card-img-top" src="images/images/ambroise_4_chambres.jpg" alt="Ambroise">
+                <div class="card-body">
+                    <p class="card-text">ARMENIA - 3 chambres+bureau <br> 117m² <br> Maison traditionnelle à étages
+                        de
+                        104 m² habitables environ. Belle pièce de vie de 40 m², 3 chambre dont...</p>
+                </div>
+            </div>
         </div>
     </section>
     <div class="pages">
