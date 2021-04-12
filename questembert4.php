@@ -21,7 +21,6 @@
                 </div>
 
                 <p class="houseDescription">
-                    <h3 class="descTitle">Description</h3>
                     Vente Maison 89 m² à Questembert 145 000 €
                     Maison CA t5 bis RT 2012 (à bâtir),vous offrant entrée, salon séjour, cuisine ouverte, local p. a.c, w.c, à
                     l'étage 3 chambres, s.d. b, w. c. Garage. Le tout sur un terrain de 359 m². Chauffage aérothermie. 

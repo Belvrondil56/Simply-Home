@@ -20,7 +20,6 @@
             </div>
 
             <p class="houseDescription">
-            <h3 class="descTitle">Description</h3>
             Exclusivité. A moins de 10 minutes de la Mairie de Vannes, projet d'une Maison ossature bois de plain pied de 75 m² dans un quartier recherché. Plan personnalisable composé d'une pièce de vie de 35 m², deux chambres, un grand cellier. Chauffage poêle à granulés. Norme RT2012 avec des résultats dépassant les recommandations actuelles. Sur un terrain viabilisé de 540 m², orienté sud/ouest sans vis-à-vis. Belles prestations et environnemet de qualité.
             Nos atouts :
             Temps de construction réduit à 7 mois Fabrication 100% française. Isolation thermique ultra -performant Garanties constructeur/ Contrat CMI (photos et images non contractuelles)

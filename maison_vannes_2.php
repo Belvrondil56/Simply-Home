@@ -20,7 +20,6 @@
             </div>
 
             <p class="houseDescription">
-            <h3 class="descTitle">Description</h3>
             VANNES AGREABLE PETITE MAISON DE VILLE PROCHE COMMERCES ET ECOLES
 
             Immobilier.notaires® et l'office notarial OFFREDO et associés vous proposent :

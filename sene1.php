@@ -20,7 +20,6 @@
                 </div>
 
                 <p class="houseDescription">
-                    <h3 class="descTitle">Description</h3>
                     Rejoindre le bourg par les sentiers côtiers...et Vannes à vélo...!
 
                     Cette maison offre un emplacement stratégique et bucolique.

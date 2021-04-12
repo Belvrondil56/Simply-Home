@@ -21,7 +21,6 @@
                 </div>
 
                 <p class="houseDescription">
-                    <h3 class="descTitle">Description</h3>
                     Campagne de QUESTEMBERT, charme et authenticité pour cette magnifique longère rénovée située dans un endroit paisible 
                     d'une longueur de 35 m avec une exposition plein sud, terrasse de 60 m² environ, implantée sur parc de 5 300 m² environ 
                     arboré de chênes, terrain de tennis, et une piscine couverte.

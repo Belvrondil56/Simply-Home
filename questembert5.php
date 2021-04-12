@@ -21,7 +21,6 @@
                 </div>
 
                 <p class="houseDescription">
-                    <h3 class="descTitle">Description</h3>
                     Dans un hameau calme, venez découvrir cette maison familiale de 1988  de 157 m2 (environ)
                     Composée au rez-de-chaussée d'une véranda de 18 m2, une pièce de vie de 38 m2 avec cuisine ouverte 
                     (aménagée et équipée), salon/ séjour avec poêle à granules (2019) et suite parentale (douche), toilettes séparées.

@@ -20,7 +20,6 @@
             </div>
 
             <p class="houseDescription">
-            <h3 class="descTitle">Description</h3>
             SENE - en impasse dans village de pêcheur - Proche de la réserve naturelle des marais de Séné et de Montsarrac -
             Maison (1965) rénovée de 122m² hab. au sol (93m² loi carrez) comprenant: Entrée, Séjour/Salon avec poêle à bois/Cuisine ouverte, sd eau, wc, chambre avec placards, à l'étage; mezzanine/Bureau, 2 chambres, wc, SDB, le tout sur un terrain de 689m² env avec garage indépendant et abris de jardin. Exposition Sud.
             Prix honoraires d'agence inclus: 420240€

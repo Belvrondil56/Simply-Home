@@ -21,7 +21,6 @@
                 </div>
 
                 <p class="houseDescription">
-                    <h3 class="descTitle">Description</h3>
                     Maison en pierre Questembert 1.5 km de la Gare, plus de 2100 m² de terrain !
                     Très belle maison pierre, récemment rénovée entre 2003 et 2005. Elle vous offre 
                     une vie de plain pieds avec une grande pièce de vie d'env 65 m² baignée de lumière 

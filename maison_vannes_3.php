@@ -20,7 +20,6 @@
             </div>
 
             <p class="houseDescription">
-            <h3 class="descTitle">Description</h3>
             MAISON CONTEMPORAINE 15 Mn de VANNES
 
             15Mn de VANNES , sur la commune de Monterblanc, et située dans un écrin de verdure, à quelques minutes à pieds des commerces, cette belle contemporaine présente une belle surface de 170m2 et de beaux volumes.

@@ -20,7 +20,6 @@
             </div>
 
             <p class="houseDescription">
-            <h3 class="descTitle">Description</h3>
             Séné Le Poulfanc, en impasse maison des années 70 se composant au rdc une entrée, un garage, un appartement de 45 m² (entrée-salon/séjour-chambre avec placard-cuisine-chaufferie).
             A l'étage : un couloir desservant une spacieuse pièce de vie, cuisine fermée, buanderie-chaufferie, salle d'eau, 2 chambres avec placard.
             Au dernier étage : 2 spacieuses chambres avec placards, une chambre, salle d'eau avec wc, 2 greniers.

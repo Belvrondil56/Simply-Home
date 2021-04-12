@@ -20,7 +20,6 @@
             </div>
 
             <p class="houseDescription">
-            <h3 class="descTitle">Description</h3>
             Maison/villa 5 pièces
 
             SENE-GARANTIE REVENTE 7 ANS OFFERTE pour cette maison de près de 100 m² habitable sur terrain de 500 m² en impasse sur le village de Limur. Cette maison à fort potentiel offre en sous-sol un espace de plus de 70 m² aménageable comprenant cuisine d'été, cellier, dégagement et local pour petite voiture. Au 1er étage, accessible par un joli escalier vous disposez d'une grande entrée, d'un salon-séjour avec lumière traversante donnant sur une grande terrasse, d'une cuisine A/E indépendante, d'un couloir desservant une chambre, un WC et une salle d'eau. Au dernier étage, le pallier dessert 1 chambre de plus de 13 m² avec son petit grenier contigu aménageable en dressing, une salle d'eau avec WC, un 2ème grenier aménageable de près de 6 m², une chambre . Un emplacement idéal, des surfaces à rafraîchir et un potentiel de développement indéniable en font une belle opportunité au cœur d'un quartier recherché. Diagnostiques en cours, visite virtuelle

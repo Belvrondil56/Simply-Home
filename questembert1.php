@@ -21,7 +21,6 @@
                 </div>
 
                 <p class="houseDescription">
-                    <h3 class="descTitle">Description</h3>
                     Maison en pierres et parpaings offrant une surface d'environ 140 m2 habitable, située en campagne, 
                     à 3.8 kms du centre-ville de Questembert et 4 kms environ de la D775 vers Vannes.
                     Elle se compose au rez-de-chaussée d'une entrée desservant un espace cuisine, un séjour, un salon, une autre pièce, un wc, un débarras, une buanderie.
